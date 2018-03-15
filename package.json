@@ -20,6 +20,9 @@
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1"
+    "enzyme-adapter-react-16": "^1.1.1",
+    "expect": "^23.0.0-alpha.0",
+    "fetch-mock": "^6.1.0",
+    "redux-mock-store": "^1.5.1"
   }
 }

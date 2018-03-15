@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { CardPanel, Row, Col } from 'react-materialize';
 
 const WeatherCard = (props) => {
+  console.log(props.icon);
+  var iconUrl = `http://openweathermap.org/img/w/${props.icon}.png`;
   return (
       <div>
         <CardPanel>
@@ -11,7 +13,7 @@ const WeatherCard = (props) => {
               {props.temp}°
             </Col>
             <Col s={6}>
-              {props.icon}
+            <img src={iconUrl} alt="weather icon"/>
             </Col>
             <Col s={6}>
             {props.date}
