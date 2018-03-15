@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import fetchWeather from '../actions/index';
+import { Row, Input, Button, Icon } from 'react-materialize';
 
 export class SearchBar extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
-    this.state = { term: '' };
+    this.state = { term: '', error: '' };
 
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
@@ -25,7 +26,12 @@ export class SearchBar extends Component {
 
   render() {
     return (
-      <div></div>
+      <Row>
+        <form onSubmit={this.onFormSubmit}>
+          <Input error="" s={12} label="search" onChange={this.onInputChange} value={this.state.term}></Input>
+          <Button type="submit" style={{width: '100%'}} waves='light'><Icon center>search</Icon></Button>
+          </form>
+      </Row>
     )
   }
 }

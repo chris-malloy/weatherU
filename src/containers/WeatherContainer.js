@@ -4,6 +4,7 @@ import WeatherCards from '../components/WeatherCards';
 
 export class WeatherContainer extends Component {
   render() {
+    console.log(this.props)
     return (
       <div>
         <WeatherCards weatherList={[]} />
@@ -12,4 +13,8 @@ export class WeatherContainer extends Component {
   };
 };
 
-export default connect()(WeatherContainer);
+function mapStateToProps({ weather }) {
+  return { weather };
+}
+
+export default connect(mapStateToProps)(WeatherContainer);

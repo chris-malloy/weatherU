@@ -1,3 +1,33 @@
 body {
   background-color: lightblue;
 }
+
+/* label focus color */
+
+.input-field input:focus+label {
+    color: blue !important;
+}
+
+
+/* label underline focus color */
+
+.row .input-field input:focus {
+    border-bottom: 1px solid blue !important;
+    box-shadow: 0 1px 0 0 blue !important
+}
+
+
+/* button color */
+
+.btn {
+  background-color: blue;
+}
+.btn:focus {
+  background-color: lightblue;
+}
+
+/* button hover color */
+
+.btn:hover {
+    background-color: lightblue;
+}
