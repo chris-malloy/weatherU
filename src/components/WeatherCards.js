@@ -2,10 +2,15 @@ import React from 'react';
 import WeatherCard from './WeatherCard';
 
 const WeatherCards = (props) => {
-  return props.weatherList.map((data, i) => {
-    var item = data.list[0];
-    console.log(item);
-    return <WeatherCard key={i} temp={item.main.temp} icon={item.weather[0].icon} date={item.dt_txt} high={item.main.temp_max} low={item.main.temp_min} />
+  var itemArray;
+  if(props.weatherList[0] === undefined) {
+    itemArray = [];
+  } else {
+    itemArray = props.weatherList[0].list;
+  };
+
+  return itemArray.map((data, index) => {
+      return <WeatherCard key={index} temp={data.main.temp} icon={data.weather[0].icon} date={data.dt_txt} high={data.main.temp_max} low={data.main.temp_min} />
   });
 };
 
