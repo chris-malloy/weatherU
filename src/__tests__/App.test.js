@@ -13,8 +13,8 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  it('to have a `WeatherCards` component', () => {
-    expect(app.find('WeatherCards').exists()).toBe(true);
+  it('to have a connected `WeatherContainer` component', () => {
+    expect(app.find('Connect(WeatherContainer)').exists()).toBe(true);
   })
 });
 

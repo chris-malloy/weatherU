@@ -1,12 +1,24 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-export const WeatherCard = () => {
+const WeatherCard = (props) => {
   return (
       <div>
-
+        {props.temp}
+        {props.icon}
+        {props.date}
+        {props.high}
+        {props.low}
       </div>
   );
 };
 
-export default connect(state => { return { weather: state } })(WeatherCard);
+WeatherCard.propTypes = {
+  temp: PropTypes.number.isRequired,
+  icon: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  high: PropTypes.number.isRequired,
+  low: PropTypes.number.isRequired
+}
+
+export default WeatherCard;

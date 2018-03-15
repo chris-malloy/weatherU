@@ -26,7 +26,7 @@ ShallowWrapper {
         <div
           className="container"
 >
-          <WeatherCards />
+          <Connect(WeatherContainer) />
 </div>,
       ],
     },
@@ -49,14 +49,14 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <WeatherCards />,
+          "children": <Connect(WeatherContainer) />,
           "className": "container",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {},
           "ref": null,
           "rendered": null,
@@ -82,7 +82,7 @@ ShallowWrapper {
           <div
             className="container"
 >
-            <WeatherCards />
+            <Connect(WeatherContainer) />
 </div>,
         ],
       },
@@ -105,14 +105,14 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <WeatherCards />,
+            "children": <Connect(WeatherContainer) />,
             "className": "container",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {},
             "ref": null,
             "rendered": null,
