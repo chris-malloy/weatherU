@@ -23,22 +23,236 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        0,
-        "icon",
-        "date",
-        0,
-        0,
-      ],
+      "children": <CardPanel>
+        <Row>
+                <Col
+                        s={6}
+                >
+                        0
+                        °
+                </Col>
+                <Col
+                        s={6}
+                >
+                        icon
+                </Col>
+                <Col
+                        s={6}
+                >
+                        date
+                </Col>
+                <Col
+                        s={6}
+                >
+                        <Col
+                                s={12}
+                        >
+                                0
+                                °
+                        </Col>
+                        <Col
+                                s={12}
+                        >
+                                0
+                                °
+                        </Col>
+                </Col>
+        </Row>
+</CardPanel>,
     },
     "ref": null,
-    "rendered": Array [
-      0,
-      "icon",
-      "date",
-      0,
-      0,
-    ],
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Row>
+          <Col
+                    s={6}
+          >
+                    0
+                    °
+          </Col>
+          <Col
+                    s={6}
+          >
+                    icon
+          </Col>
+          <Col
+                    s={6}
+          >
+                    date
+          </Col>
+          <Col
+                    s={6}
+          >
+                    <Col
+                              s={12}
+                    >
+                              0
+                              °
+                    </Col>
+                    <Col
+                              s={12}
+                    >
+                              0
+                              °
+                    </Col>
+          </Col>
+</Row>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              s={6}
+>
+              0
+              °
+</Col>,
+            <Col
+              s={6}
+>
+              icon
+</Col>,
+            <Col
+              s={6}
+>
+              date
+</Col>,
+            <Col
+              s={6}
+>
+              <Col
+                            s={12}
+              >
+                            0
+                            °
+              </Col>
+              <Col
+                            s={12}
+              >
+                            0
+                            °
+              </Col>
+</Col>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                0,
+                "°",
+              ],
+              "s": 6,
+            },
+            "ref": null,
+            "rendered": Array [
+              0,
+              "°",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "icon",
+              "s": 6,
+            },
+            "ref": null,
+            "rendered": "icon",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "date",
+              "s": 6,
+            },
+            "ref": null,
+            "rendered": "date",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Col
+                  s={12}
+>
+                  0
+                  °
+</Col>,
+                <Col
+                  s={12}
+>
+                  0
+                  °
+</Col>,
+              ],
+              "s": 6,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    0,
+                    "°",
+                  ],
+                  "s": 12,
+                },
+                "ref": null,
+                "rendered": Array [
+                  0,
+                  "°",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    0,
+                    "°",
+                  ],
+                  "s": 12,
+                },
+                "ref": null,
+                "rendered": Array [
+                  0,
+                  "°",
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -47,22 +261,236 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          0,
-          "icon",
-          "date",
-          0,
-          0,
-        ],
+        "children": <CardPanel>
+          <Row>
+                    <Col
+                              s={6}
+                    >
+                              0
+                              °
+                    </Col>
+                    <Col
+                              s={6}
+                    >
+                              icon
+                    </Col>
+                    <Col
+                              s={6}
+                    >
+                              date
+                    </Col>
+                    <Col
+                              s={6}
+                    >
+                              <Col
+                                        s={12}
+                              >
+                                        0
+                                        °
+                              </Col>
+                              <Col
+                                        s={12}
+                              >
+                                        0
+                                        °
+                              </Col>
+                    </Col>
+          </Row>
+</CardPanel>,
       },
       "ref": null,
-      "rendered": Array [
-        0,
-        "icon",
-        "date",
-        0,
-        0,
-      ],
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Row>
+            <Col
+                        s={6}
+            >
+                        0
+                        °
+            </Col>
+            <Col
+                        s={6}
+            >
+                        icon
+            </Col>
+            <Col
+                        s={6}
+            >
+                        date
+            </Col>
+            <Col
+                        s={6}
+            >
+                        <Col
+                                    s={12}
+                        >
+                                    0
+                                    °
+                        </Col>
+                        <Col
+                                    s={12}
+                        >
+                                    0
+                                    °
+                        </Col>
+            </Col>
+</Row>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Col
+                s={6}
+>
+                0
+                °
+</Col>,
+              <Col
+                s={6}
+>
+                icon
+</Col>,
+              <Col
+                s={6}
+>
+                date
+</Col>,
+              <Col
+                s={6}
+>
+                <Col
+                                s={12}
+                >
+                                0
+                                °
+                </Col>
+                <Col
+                                s={12}
+                >
+                                0
+                                °
+                </Col>
+</Col>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  0,
+                  "°",
+                ],
+                "s": 6,
+              },
+              "ref": null,
+              "rendered": Array [
+                0,
+                "°",
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "icon",
+                "s": 6,
+              },
+              "ref": null,
+              "rendered": "icon",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "date",
+                "s": 6,
+              },
+              "ref": null,
+              "rendered": "date",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Col
+                    s={12}
+>
+                    0
+                    °
+</Col>,
+                  <Col
+                    s={12}
+>
+                    0
+                    °
+</Col>,
+                ],
+                "s": 6,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      0,
+                      "°",
+                    ],
+                    "s": 12,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    0,
+                    "°",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      0,
+                      "°",
+                    ],
+                    "s": 12,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    0,
+                    "°",
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
       "type": "div",
     },
   ],
