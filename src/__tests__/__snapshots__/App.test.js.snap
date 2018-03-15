@@ -26,6 +26,7 @@ ShallowWrapper {
         <div
           className="container"
 >
+          <Connect(SearchBar) />
           <Connect(WeatherContainer) />
 </div>,
       ],
@@ -49,19 +50,33 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(WeatherContainer) />,
+          "children": Array [
+            <Connect(SearchBar) />,
+            <Connect(WeatherContainer) />,
+          ],
           "className": "container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
     ],
@@ -82,6 +97,7 @@ ShallowWrapper {
           <div
             className="container"
 >
+            <Connect(SearchBar) />
             <Connect(WeatherContainer) />
 </div>,
         ],
@@ -105,19 +121,33 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(WeatherContainer) />,
+            "children": Array [
+              <Connect(SearchBar) />,
+              <Connect(WeatherContainer) />,
+            ],
             "className": "container",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
       ],

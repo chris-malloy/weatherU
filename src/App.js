@@ -1,5 +1,6 @@
 import React from 'react';
 import './stylesheets/App.css';
+import SearchBar from './containers/SearchBar';
 import WeatherContainer from './containers/WeatherContainer';
 
 export const App = () => {
@@ -7,6 +8,7 @@ export const App = () => {
     <div>
       <h1 className="center">weatherU</h1>
       <div className="container">
+        <SearchBar />
         <WeatherContainer />
       </div>
     </div>
