@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './stylesheets/App.css';
+import WeatherCards from './components/WeatherCards';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
+const App = () => {
+  return (
+    <div>
+      <h1 className="center">weatherU</h1>
+      <div className="container">
+        <WeatherCards />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
