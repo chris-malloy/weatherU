@@ -1,7 +1,12 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
-const WeatherCard = () => {
-  return <div></div>
+export const WeatherCard = () => {
+  return (
+      <div>
+
+      </div>
+  );
 };
 
-export default WeatherCard;
+export default connect(state => { return { weather: state } })(WeatherCard);

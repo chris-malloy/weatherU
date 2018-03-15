@@ -2,7 +2,7 @@ import React from 'react';
 import './stylesheets/App.css';
 import WeatherCards from './components/WeatherCards';
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <h1 className="center">weatherU</h1>
