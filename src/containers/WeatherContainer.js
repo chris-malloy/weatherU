@@ -3,11 +3,11 @@ import { connect } from 'react-redux';
 import WeatherCards from '../components/WeatherCards';
 
 export class WeatherContainer extends Component {
+
   render() {
-    console.log(this.props)
     return (
       <div>
-        <WeatherCards weatherList={[]} />
+        <WeatherCards weatherList={this.props.weather} />
       </div>
     );
   };

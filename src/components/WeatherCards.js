@@ -1,15 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import WeatherCard from './WeatherCard';
 
 const WeatherCards = (props) => {
   return props.weatherList.map((data, i) => {
-    return <WeatherCard key={i} temp={0} icon='' date='' high={0} low={0} />
+    var item = data.list[0];
+    console.log(item);
+    return <WeatherCard key={i} temp={item.main.temp} icon={item.weather[0].icon} date={item.dt_txt} high={item.main.temp_max} low={item.main.temp_min} />
   });
 };
-
-WeatherCards.propTypes = {
-  weatherList: PropTypes.array.isRequired
-}
 
 export default WeatherCards;

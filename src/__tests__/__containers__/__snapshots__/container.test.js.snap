@@ -20,7 +20,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <WeatherCards
-        weatherList={Array []}
+        weatherList={undefined}
 />,
     },
     "ref": null,
@@ -29,7 +29,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "weatherList": Array [],
+        "weatherList": undefined,
       },
       "ref": null,
       "rendered": null,
@@ -44,7 +44,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <WeatherCards
-          weatherList={Array []}
+          weatherList={undefined}
 />,
       },
       "ref": null,
@@ -53,7 +53,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "weatherList": Array [],
+          "weatherList": undefined,
         },
         "ref": null,
         "rendered": null,
