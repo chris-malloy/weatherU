@@ -5,7 +5,6 @@ import { CardPanel, Row, Col } from 'react-materialize';
 const WeatherCard = (props) => {
   var iconUrl = `https://openweathermap.org/img/w/${props.icon}.png`;
   var jacketMsg;
-  var umbrellaMsg;
   if(props.temp > 80) {
     jacketMsg = "Stay home, jacket!";
   } else if (props.temp > 60) {
@@ -17,23 +16,29 @@ const WeatherCard = (props) => {
   } else if (props.temp > 0) {
     jacketMsg = "STAY INSIDE";
   };
-  
+
   var code = props.code.toString() // to use string proto includes()
-  if (code.includes('2')) {
-    umbrellaMsg = "Oh no, thunder! Bring 5 umbrellas"
-  } else if (code.includes('3')) {
-    umbrellaMsg = "Just a drizzle today!";
-  } else if (code.includes('5')) {
-    umbrellaMsg = "Umbrella time, it's one of those days";
-  } else if (code.includes('6')) {
-    umbrellaMsg = "Snow Day!!!";
-  } else if (code.includes('7')) {
-    umbrellaMsg = "Theres' some weird stuff going on today";
-  } else if (code.includes('8')) {
-    umbrellaMsg = "Happy Day! Leave the umbrella home";
-  } else if (code.includes('90')) {
-    umbrellaMsg = "Just stay home it's crazy out there";
+
+  const messageMap = {
+    "2": "Oh no, thunder! Bring 5 umbrellas",
+    "3": "Just a drizzle today!",
+    "5": "Umbrella time, it's one of those days",
+    "6": "Snow Day!!!",
+    "7": "Theres' some weird stuff going on today",
+    "8": "Happy Day! Leave the umbrella home",
+    "90": "Just stay home it's crazy out there"
+  }
+
+  const setUmbrellaMessage = () => {
+    for (var i in messageMap) {
+      if (code.includes(i)) {
+        return messageMap[i];
+      };
+    };
   };
+  
+
+  var umbrellaMsg = setUmbrellaMessage();
 
   return (
       <Col s={12} m={6} l={4}>
