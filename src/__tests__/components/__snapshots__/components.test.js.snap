@@ -42,7 +42,7 @@ ShallowWrapper {
                 >
                         <img
                                 alt="weather icon"
-                                src="http://openweathermap.org/img/w/icon.png"
+                                src="https://openweathermap.org/img/w/icon.png"
                         />
                 </Col>
                 <Col
@@ -101,7 +101,7 @@ ShallowWrapper {
           >
                     <img
                               alt="weather icon"
-                              src="http://openweathermap.org/img/w/icon.png"
+                              src="https://openweathermap.org/img/w/icon.png"
                     />
           </Col>
           <Col
@@ -155,7 +155,7 @@ ShallowWrapper {
 >
               <img
                             alt="weather icon"
-                            src="http://openweathermap.org/img/w/icon.png"
+                            src="https://openweathermap.org/img/w/icon.png"
               />
 </Col>,
             <Col
@@ -218,7 +218,7 @@ ShallowWrapper {
             "props": Object {
               "children": <img
                 alt="weather icon"
-                src="http://openweathermap.org/img/w/icon.png"
+                src="https://openweathermap.org/img/w/icon.png"
 />,
               "s": 6,
             },
@@ -229,7 +229,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "alt": "weather icon",
-                "src": "http://openweathermap.org/img/w/icon.png",
+                "src": "https://openweathermap.org/img/w/icon.png",
               },
               "ref": null,
               "rendered": null,
@@ -382,7 +382,7 @@ ShallowWrapper {
                     >
                               <img
                                         alt="weather icon"
-                                        src="http://openweathermap.org/img/w/icon.png"
+                                        src="https://openweathermap.org/img/w/icon.png"
                               />
                     </Col>
                     <Col
@@ -441,7 +441,7 @@ ShallowWrapper {
             >
                         <img
                                     alt="weather icon"
-                                    src="http://openweathermap.org/img/w/icon.png"
+                                    src="https://openweathermap.org/img/w/icon.png"
                         />
             </Col>
             <Col
@@ -495,7 +495,7 @@ ShallowWrapper {
 >
                 <img
                                 alt="weather icon"
-                                src="http://openweathermap.org/img/w/icon.png"
+                                src="https://openweathermap.org/img/w/icon.png"
                 />
 </Col>,
               <Col
@@ -558,7 +558,7 @@ ShallowWrapper {
               "props": Object {
                 "children": <img
                   alt="weather icon"
-                  src="http://openweathermap.org/img/w/icon.png"
+                  src="https://openweathermap.org/img/w/icon.png"
 />,
                 "s": 6,
               },
@@ -569,7 +569,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "alt": "weather icon",
-                  "src": "http://openweathermap.org/img/w/icon.png",
+                  "src": "https://openweathermap.org/img/w/icon.png",
                 },
                 "ref": null,
                 "rendered": null,

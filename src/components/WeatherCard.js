@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { CardPanel, Row, Col } from 'react-materialize';
 
 const WeatherCard = (props) => {
-  var iconUrl = `http://openweathermap.org/img/w/${props.icon}.png`;
+  var iconUrl = `https://openweathermap.org/img/w/${props.icon}.png`;
   var jacketMsg;
   var umbrellaMsg;
   if(props.temp > 80) {
