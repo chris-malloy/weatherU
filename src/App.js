@@ -1,5 +1,4 @@
 import React from 'react';
-import './stylesheets/App.css';
 import SearchBar from './containers/SearchBar';
 import WeatherContainer from './containers/WeatherContainer';
 

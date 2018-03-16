@@ -28,7 +28,8 @@ describe('Components', () => {
       icon: 'icon',
       date: 'date',
       low: 0,
-      high: 0
+      high: 0,
+      code: 0,
     }
     const weatherCard = shallow(<WeatherCard {...props} />);
 

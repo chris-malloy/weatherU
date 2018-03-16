@@ -5,29 +5,39 @@ body {
 /* label focus color */
 
 .input-field input:focus+label {
-    color: blue !important;
+    color: #29b6f6 !important;
 }
-
 
 /* label underline focus color */
 
 .row .input-field input:focus {
-    border-bottom: 1px solid blue !important;
-    box-shadow: 0 1px 0 0 blue !important
+    border-bottom: 1px solid #29b6f6 !important;
+    box-shadow: 0 1px 0 0 #29b6f6 !important
 }
-
 
 /* button color */
 
 .btn {
-  background-color: blue;
+  background-color: #29b6f6;
 }
 .btn:focus {
-  background-color: lightblue;
+  background-color: #29b6f6;
 }
 
 /* button hover color */
 
 .btn:hover {
-    background-color: lightblue;
+    background-color: #29b6f6;
+}
+
+.current-temp {
+  font-size: 200%;
+}
+
+.date {
+  margin-top: 50px;
+}
+
+.high-low {
+  margin-top: 50px;
 }
