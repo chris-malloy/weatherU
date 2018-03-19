@@ -12,17 +12,17 @@ export class SearchBar extends Component {
 
     this.onInputChange = this.onInputChange.bind(this);
     this.onFormSubmit = this.onFormSubmit.bind(this);
-  }
+  };
 
   onInputChange(e) {
     this.setState({ term: e.target.value })
-  }
+  };
 
   onFormSubmit(e) {
     e.preventDefault();
     this.props.fetchWeather(this.state.term);
     this.setState({ term: '' });
-  }
+  };
 
   render() {
     return (
@@ -33,11 +33,11 @@ export class SearchBar extends Component {
           </form>
       </Row>
     )
-  }
-}
+  };
+};
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators({ fetchWeather }, dispatch)
-}
+};
 
 export default connect(null, mapDispatchToProps)(SearchBar);
